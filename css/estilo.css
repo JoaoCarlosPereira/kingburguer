@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Ropa+Sans");
+p {
+  color: #ED7801;
+  font: 14px "Ropa Sans", "Poiret One"; }
+
+h1 {
+  color: #762823;
+  font: 36px "Poiret One", "Ropa Sans"; }
+
+h2 {
+  color: #762823;
+  font: 24px "Poiret One", "Ropa Sans"; }
+
+nav ul {
+  float: right;
+  margin: 30px 10px; }
+  nav ul li {
+    display: inline; }
+    nav ul li a {
+      color: #ED7801;
+      text-decoration: none;
+      padding: 10px 20px;
+      font: 18px "Poiret One", "Ropa Sans";
+      transition: all 0.5s;
+      font-weight: 700px; }
+      nav ul li a:hover {
+        background: #762823; }
+
+header {
+  background: url(../images/header.jpg);
+  width: 100%;
+  height: 600px; }
+
+body {
+  margin: 0; }
+
+.logo {
+  margin: 10px;
+  float: left; }
+
+.msg {
+  float: left;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 5px; }
+  .msg p {
+    color: #fff; }
+
+.max {
+  float: right;
+  margin: -50px 20px; }
+
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
+.titulo {
+  background: #762823;
+  text-align: center;
+  padding: 20px 0; }
+  .titulo h1 {
+    color: #ED7801; }
+
+.container {
+  width: 960px;
+  margin: auto; }
+
+.linha {
+  display: flex;
+  flex-wrap: wrap; }
+
+.item {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 5px;
+  text-align: center;
+  transition: all 0.5s; }
+  .item:hover {
+    border-color: #762823; }
+  .item img {
+    width: 160px; }
+  .item i {
+    font-size: 50px;
+    color: #branco;
+    margin: 20px; }
+
+#local {
+  background: url(../images/fogo.jpg) fixed no-repeat;
+  padding: 40px 0;
+  float: left;
+  width: 100%;
+  background-size: cover; }
+
+#menu {
+  border: 1px solid #762823;
+  color: #762823;
+  padding: 10px;
+  float: right;
+  margin: 20px;
+  display: none; }
+
+@media (min-width: 480px) and (max-width: 800px) {
+  nav ul {
+    width: 100%;
+    float: left;
+    background: #fff;
+    display: none; }
+    nav ul li {
+      display: block; }
+      nav ul li a {
+        padding: 20px 0;
+        font-size: 20px;
+        float: left;
+        width: 100%; }
+
+  #menu {
+    display: block; }
+
+  .container {
+    width: 400px; }
+
+  .msg {
+    width: 350px;
+    padding: 10px; }
+
+  .max {
+    display: none; } }
+
+/*# sourceMappingURL=estilo.css.map */
