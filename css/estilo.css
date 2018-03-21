@@ -1,15 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Poiret+One|Ropa+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 p {
   color: #ED7801;
-  font: 14px "Ropa Sans", "Poiret One"; }
+  font: 14px "Arial", "Tahoma"; }
 
 h1 {
   color: #762823;
-  font: 36px "Poiret One", "Ropa Sans"; }
+  font: 36px "Open Sans", "Arial", "Tahoma";
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #000; }
+
+h1::after {
+  content: "";
+  border: 5px solid #ED7801;
+  width: 100px;
+  display: block;
+  margin: 20px auto; }
 
 h2 {
   color: #762823;
-  font: 24px "Poiret One", "Ropa Sans"; }
+  font: 24px "Open Sans", "Arial", "Tahoma"; }
 
 nav ul {
   float: right;
@@ -20,7 +29,7 @@ nav ul {
       color: #ED7801;
       text-decoration: none;
       padding: 10px 20px;
-      font: 18px "Poiret One", "Ropa Sans";
+      font: 18px "Open Sans", "Arial", "Tahoma";
       transition: all 0.5s;
       font-weight: 700px; }
       nav ul li a:hover {
@@ -76,10 +85,12 @@ body {
 
 .item {
   flex: 1;
+  border-radius: 5px;
   border: 1px solid #ccc;
   margin: 5px;
   text-align: center;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff; }
   .item:hover {
     border-color: #762823; }
   .item img {
@@ -89,12 +100,63 @@ body {
     color: #branco;
     margin: 20px; }
 
+.branco p {
+  color: #fff; }
+
+.itemfooter {
+  flex: 1;
+  margin: 10px;
+  text-align: left; }
+  .itemfooter h3 {
+    color: #fff;
+    font: 22px "Open Sans", "Arial", "Tahoma"; }
+  .itemfooter a {
+    color: orange; }
+  .itemfooter ul {
+    list-style-type: none; }
+
+.borda {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 5px;
+  background: #fff; }
+
 #local {
   background: url(../images/fogo.jpg) fixed no-repeat;
   padding: 40px 0;
   float: left;
   width: 100%;
   background-size: cover; }
+
+#destaques {
+  float: left;
+  width: 100%;
+  height: 350px; }
+
+#promocoes {
+  background: url(../images/bg.jpg) no-repeat;
+  padding: 40px 0;
+  float: left;
+  width: 100%;
+  background-size: contain;
+  background-position: center; }
+  #promocoes img {
+    width: 20%; }
+
+#bacon {
+  background: url(../images/bacon.jpg);
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat-x; }
+
+#rodape {
+  background: #2D2D2D;
+  float: left;
+  width: 100%;
+  height: auto; }
 
 #menu {
   border: 1px solid #762823;
@@ -103,6 +165,20 @@ body {
   float: right;
   margin: 20px;
   display: none; }
+
+.btn {
+  background: #ED7801;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.5s;
+  text-decoration: none;
+  font-size: 0.8em; }
+
+.btn:hover {
+  color: #ED7801;
+  background: #762823;
+  text-decoration: none; }
 
 @media (min-width: 480px) and (max-width: 800px) {
   nav ul {
