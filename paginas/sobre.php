@@ -9,7 +9,7 @@
                 Uma ótima refeição vem primeiro</h3>
 
             <p>
-            <p>Fundado em 1954, o BURGER KING<sup>®</sup> é a segunda maior rede de hambúrgueres do mundo. 
+            <p>Fundado em 1954, o KING BURGER<sup>®</sup> é a segunda maior rede de hambúrgueres do mundo. 
                 Lar original do WHOPPER<sup>®</sup>, possui mais de 15 mil lojas, servindo mais de 11 milhões de consumidores por dia em mais 
                 de 100 países ao redor do mundo. Aproximadamente 90% dos restaurantes BURGER KING<sup>®</sup> 
                 pertencem e são operados por franquias independentes, muitas delas administradas por empresas familiares 
